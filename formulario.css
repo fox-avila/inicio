@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+.formulario{
+    background-color: pink;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 200px; */
+    width: 70%;
+    border: 1px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    /* margin-left: 20px; */
+    
+   
+}
+
+
+
+form{
+    background-color:rgba(4, 66, 116, 0.881);
+    border-radius: 10px;
+    box-shadow: 7px 8px 10px 4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 7px 8px 10px 4px rgba(0,0,0,0.76);
+-moz-box-shadow: 7px 8px 10px 4px rgba(0,0,0,0.76);
+    width:25em;
+    height: 25em;
+    margin-left: 10em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+input{
+  
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+.primero{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+}
+label, input {
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+label{
+    
+    font-size: 1.5em;
+}
+
+#boto{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;    
+}
+
+
+@media (max-width:1142px){
+
+   form{
+    margin-top: 30px;
+   }
+  
+  }

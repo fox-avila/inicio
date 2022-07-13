@@ -92,3 +92,14 @@ label{
    }
   
   }
+
+  @media only screen and (max-width: 550px){
+
+    .formulario{
+        width: 95%;
+    }
+
+    img{
+        width: 90%;
+    }
+  }
